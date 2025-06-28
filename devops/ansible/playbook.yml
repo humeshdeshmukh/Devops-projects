@@ -1,0 +1,10 @@
+---
+- name: Example Ansible Playbook for Cloud Counselage App
+  hosts: all
+  become: true
+  tasks:
+    - name: Ensure Docker is installed
+      apt:
+        name: docker.io
+        state: present
+      when: ansible_os_family == 'Debian'

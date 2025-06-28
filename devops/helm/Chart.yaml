@@ -1,0 +1,4 @@
+apiVersion: v2
+name: cloud-counselage-app
+version: 0.1.0
+description: A Helm chart for Cloud Counselage full-stack app

@@ -1,0 +1,16 @@
+{
+  "annotations": {"list": [{"builtIn": 1, "type": "dashboard"}]},
+  "panels": [
+    {
+      "datasource": "Prometheus",
+      "type": "graph",
+      "title": "Backend Request Rate",
+      "targets": [{"expr": "rate(http_requests_total[1m])", "refId": "A"}],
+      "id": 1,
+      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0}
+    }
+  ],
+  "schemaVersion": 27,
+  "title": "App Metrics",
+  "version": 1
+}
