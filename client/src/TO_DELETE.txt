@@ -1,9 +1,0 @@
-Delete the following unused files and folders:
-- src/components/Login.jsx
-- src/components/Navbar.jsx
-- src/components/StatusBadge.jsx
-- src/pages/AboutPage.jsx
-- src/pages/ApiDemoPage.jsx
-- src/pages/HomePage.jsx
-- src/components/
-- src/pages/
